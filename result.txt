@@ -1,0 +1,17 @@
+sizeof(block_t)=16
+Strategy 1 : position first
+time         : 7109 ms
+malloc count : 5112
+miss count   : 218
+Strategy 2 : size suit first
+time         : 7239 ms
+malloc count : 5103
+miss count   : 198
+Strategy 3 : size large first
+time         : 7263 ms
+malloc count : 5101
+miss count   : 195
+Strategy 4 : Buddy System
+time         : 56877 ms
+malloc count : 5125
+miss count   : 0
